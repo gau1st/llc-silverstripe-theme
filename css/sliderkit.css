@@ -1,0 +1,187 @@
+/*---------------------------------
+ *  Photos slider > 1 click
+ *---------------------------------*/
+.photoslider-1click{width:940px;height:370px;}
+
+/* Nav */
+.photoslider-1click .sliderkit-nav{position:absolute;bottom:10px;right:10px;}
+.photoslider-1click .sliderkit-nav-clip ul li{float:left;margin:0 4px 0 0;list-style: none;}
+.photoslider-1click .sliderkit-nav-clip ul li a{display:block;padding:2px 6px;color:#fff;background:#5A1F61}
+.photoslider-1click .sliderkit-nav-clip ul li.sliderkit-selected a{color:#000;background:#9932CB;}
+.photoslider-1click .sliderkit-nav-clip ul a:hover{color:#fff;background:#00668d;}
+
+/*---------------------------------
+ *  Carousel > Demo #1
+ *---------------------------------*/
+.carousel-demo1{width:940px;height:200px;background:;}
+
+/* Navbar */
+.carousel-demo1 .sliderkit-nav{float:right:0;bottom:0;width:590px;height:140px;padding:10px;background:;}
+.carousel-demo1 .sliderkit-nav-clip ul li{float:right;color:#fff;list-style: none;}
+.carousel-demo1 .sliderkit-nav-clip ul li a{display:block;width:188px;height:150px;overflow:hidden;margin:0;opacity:0.8;color:#fff;}
+.carousel-demo1 .sliderkit-nav-clip ul li a:hover{opacity:1;}
+.carousel-demo1 .sliderkit-nav-clip ul li img{width:160px;height:100px;margin-bottom:0px;margin: 11px 0 0 0px; border:1px solid #fff;}
+
+/* Buttons */
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-btn{position:absolute;top:0;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-btn span{display:none;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-btn a{display:block;width:15px;height:140px;background:transparent url("../images/arrows-h.png") no-repeat center 0;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-prev{left:5px;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-next{right:5px;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-prev a{background-position:-89px center;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-next a{background-position:-108px center;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-prev a:hover,
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-prev a:focus{background-position:-126px center;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-next a:hover,
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-next a:focus{background-position:-145px center;}
+
+/* Buttons > Disable */
+.carousel-demo1 .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;cursor:default;}
+
+/*---------------------------------
+ *  Photos gallery > Vertical
+ *---------------------------------*/
+.photosgallery-vertical{width:940px;height:370px;background:;}
+
+/* Nav */
+.photosgallery-vertical .sliderkit-nav{top:0;left:740px;width:205px;height:100%;background: ;}
+.photosgallery-vertical .sliderkit-nav-clip{left:0px;}
+.photosgallery-vertical .sliderkit-nav-clip ul li{margin:0;padding:0;}
+.photosgallery-vertical .sliderkit-nav-clip ul li a{display:block;width:200px;height:90px;overflow:hidden;padding-top:1px;}
+.photosgallery-vertical .sliderkit-nav-clip ul li.sliderkit-selected a{padding:1;border:0px solid #c5dbe6;}
+.photosgallery-vertical .sliderkit-nav-clip ul li img{width:197px;height:90px;margin-bottom:0px;}
+
+/* Nav buttons */
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-btn{position:absolute;left:0;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-btn a{display:block;width:200px;height:16px;background:transparent url("../images/serta-arrows-v.png") no-repeat center 0;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-btn a span{display:none;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-prev{top:0px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-next{bottom:0px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-prev a{background-position:center -89px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-next a{background-position:center -108px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-prev a:hover,
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-prev a:focus{background-position:center -126px;}
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-next a:hover,
+.photosgallery-vertical .sliderkit-nav .sliderkit-nav-next a:focus{background-position:center -145px;}
+
+/* Go Buttons */
+.photosgallery-vertical .sliderkit-go-btn a{width:200px;height:300px;background:#ccc;opacity:.8;}
+.photosgallery-vertical .sliderkit-go-prev{top:0;left:0;}
+.photosgallery-vertical .sliderkit-go-next{top:0;right:0;}
+
+/* Panel */
+.photosgallery-vertical .sliderkit-panel{top:0;left:0;width:940px;height:370px;}
+
+/* Panel > Textbox */
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-textbox{bottom:0;left:0;height:85px;width:500px;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-text{height:65px;padding:10px 15px 10px 15px;font-size:0.9em;color:#fff;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-text h4{height:auto;margin:0 0 7px;line-height:1.1em;font-size:1.1em;font-weight:bold;border:none;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-overlay{height:85px;width:500px;background:#000;opacity:0.6;}
+
+/*---------------------------------
+ *  Photos gallery > With captions
+ *---------------------------------*/
+.photosgallery-captions{width:920px;height:650px;padding:0 0 76px;background:;}
+
+/* Navbar */
+.photosgallery-captions .sliderkit-nav{left:0;bottom:0;width:675px;height:130px;padding:10px;background:#d1d1d1 url("../images/bg-pagewithslider.png") repeat;}
+.photosgallery-captions .sliderkit-nav-clip ul li{float:left;margin-top:20px;list-style: none;}
+.photosgallery-captions .sliderkit-nav-clip ul li a{display:block;width:100px;height:75px;overflow:hidden;margin:0;padding:3px;}
+.photosgallery-captions .sliderkit-nav-clip ul li.sliderkit-selected a{padding:0;border:3px solid #fff;}
+
+/* Buttons */
+.photosgallery-captions .sliderkit-btn{position:absolute;top:35px;}
+.photosgallery-captions .sliderkit-btn a{display:block;height:76px;background:transparent url("../images/arrows-h.png") no-repeat center 0;}
+.photosgallery-captions .sliderkit-btn span{display:none;}
+.photosgallery-captions .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;}
+.photosgallery-captions .sliderkit-btn-disable a:hover{cursor:default;}
+
+/* Buttons > Navbar buttons */
+.photosgallery-captions .sliderkit-nav-btn{width:15px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-nav-prev{left:15px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-nav-next{right:15px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-nav-prev a{background-position:-89px center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-nav-next a{background-position:-108px center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-nav-prev a:hover,
+.photosgallery-captions .sliderkit-nav .sliderkit-nav-prev a:focus{background-position:-126px center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-nav-next a:hover,
+.photosgallery-captions .sliderkit-nav .sliderkit-nav-next a:focus{background-position:-145px center;}
+
+/* Buttons > Go buttons */
+.photosgallery-captions .sliderkit-go-btn{width:10px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev{left:40px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next{right:40px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a{background-position:0 center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a{background-position:-20px center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a:hover,
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a:focus{background-position:-40px center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a:hover,
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a:focus{background-position:-60px center;}
+
+/* Panel */
+.photosgallery-captions .sliderkit-panels{position:absolute;left:0;width:940px;height:424px;overflow:hidden; background:#ececec;}
+.photosgallery-captions .sliderkit-panel{left:0;top:0;width:940px;height:325px;padding:10px;background: #ececec;overflow:auto;}
+
+
+/* News block */
+.photosgallery-captions .sliderkit-news h3,
+.photosgallery-captions .sliderkit-news h3 a{color:#000;font-weight:bold;}
+.photosgallery-captions .sliderkit-news h3{font-size:1.2em;margin:0 0 15px;}
+.photosgallery-captions .sliderkit-news img{float:left;height:auto;margin:0 10px 0 0px;overflow:hidden;}
+.photosgallery-captions .sliderkit-news p{margin:0;}
+
+
+/*---------------------------------
+ *  Promo of the Day > With captions
+ *---------------------------------*/
+.promooftheday-captions{width:940px;height:650px;padding:0 0 76px;background:#ececec;}
+
+/* Navbar */
+.promooftheday-captions .sliderkit-nav{left:0;bottom:0;width:920px;height:200px;padding:10px;background:#d1d1d1 url("../images/bg-pagewithslider.png") repeat;}
+.promooftheday-captions .sliderkit-nav-clip ul li{float:left;margin-top:20px;list-style: none;}
+.promooftheday-captions .sliderkit-nav-clip ul li a{display:block;width:150px;height:86px;overflow:hidden;margin:0;padding:3px;}
+.promooftheday-captions .sliderkit-nav-clip ul li.sliderkit-selected a{padding:0;border:3px solid #fff;}
+
+/* Buttons */
+.promooftheday-captions .sliderkit-btn{position:absolute;top:35px;}
+.promooftheday-captions .sliderkit-btn a{display:block;height:76px;background:transparent url("../images/arrows-h.png") no-repeat center 0;}
+.promooftheday-captions .sliderkit-btn span{display:none;}
+.promooftheday-captions .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;}
+.promooftheday-captions .sliderkit-btn-disable a:hover{cursor:default;}
+
+/* Buttons > Navbar buttons */
+.promooftheday-captions .sliderkit-nav-btn{width:15px;}
+.promooftheday-captions .sliderkit-nav .sliderkit-nav-prev{left:15px;}
+.promooftheday-captions .sliderkit-nav .sliderkit-nav-next{right:15px;}
+.promooftheday-captions .sliderkit-nav .sliderkit-nav-prev a{background-position:-89px center;}
+.promooftheday-captions .sliderkit-nav .sliderkit-nav-next a{background-position:-108px center;}
+.promooftheday-captions .sliderkit-nav .sliderkit-nav-prev a:hover,
+.promooftheday-captions .sliderkit-nav .sliderkit-nav-prev a:focus{background-position:-126px center;}
+.promooftheday-captions .sliderkit-nav .sliderkit-nav-next a:hover,
+.promooftheday-captions .sliderkit-nav .sliderkit-nav-next a:focus{background-position:-145px center;}
+
+/* Buttons > Go buttons */
+.promooftheday-captions .sliderkit-go-btn{width:10px;}
+.promooftheday-captions .sliderkit-nav .sliderkit-go-prev{left:40px;}
+.promooftheday-captions .sliderkit-nav .sliderkit-go-next{right:40px;}
+.promooftheday-captions .sliderkit-nav .sliderkit-go-prev a{background-position:0 center;}
+.promooftheday-captions .sliderkit-nav .sliderkit-go-next a{background-position:-20px center;}
+.promooftheday-captions .sliderkit-nav .sliderkit-go-prev a:hover,
+.promooftheday-captions .sliderkit-nav .sliderkit-go-prev a:focus{background-position:-40px center;}
+.promooftheday-captions .sliderkit-nav .sliderkit-go-next a:hover,
+.promooftheday-captions .sliderkit-nav .sliderkit-go-next a:focus{background-position:-60px center;}
+
+/* Panel */
+.promooftheday-captions .sliderkit-panels{position:absolute;left:0;width:940px;height:500px;overflow:hidden; background:#ececec;}
+.promooftheday-captions .sliderkit-panel{left:0;top:0;width:940px;height:600px;padding:10px;background: #ececec;overflow:auto;}
+
+
+/* News block */
+.promooftheday-captions .sliderkit-news h3,
+.promooftheday-captions .sliderkit-news h3 a{color:#000;font-weight:bold;}
+.promooftheday-captions .sliderkit-news h3{font-size:1.2em;margin:0 0 15px;}
+.promooftheday-captions .sliderkit-news img{float:none;height:auto;margin:auto;overflow:hidden;}
+.promooftheday-captions .sliderkit-news p{margin:0;}
+
+
+

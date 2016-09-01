@@ -1,0 +1,766 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+background: transparent;
+border: 0;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+clear: both;
+font-weight: normal;
+}
+
+a:hover { 
+ 		text-decoration: underline;
+}
+a { 
+ 		text-decoration: none;
+}
+
+
+@font-face{ 
+	font-family: 'LearningCurve_OT';
+	src: url("LearningCurve_OT.otf") format("opentype");
+}
+
+@font-face{ 
+	font-family: 'LearningCurveDashed_OT';
+	src: url("LearningCurvedashed_OT.otf") format("opentype");
+}
+
+@font-face{ 
+	font-family: 'Museo500-Regular';
+	src: url("Museo500-Regular.otf") format("opentype");
+}
+
+@font-face{ 
+	font-family: 'Museo700-Regular';
+	src: url("Museo700-Regular.otf") format("opentype");
+}
+
+@font-face{ 
+	font-family: 'Museo300-Regular';
+	src: url("Museo300-Regular.otf") format("opentype");
+}
+
+body {
+	color: #333;
+	font-family: MetaPro;
+}
+
+html {
+	background-color:#ffffff;
+}
+
+.header {
+	width:960px;
+	height:403px;	
+}
+
+.header-2 {
+	width:960px;
+	height:80px;	
+}
+
+.logo {
+	position:absolute;
+}
+
+
+.social-network-area {
+	width:780px;
+	height: 30px;
+	position:absolute;
+	margin-left:180px; 
+}
+
+
+.social-network-area .twitter-icon-area {
+	margin-top:10px;
+	margin-right:10px;
+	margin-left:20px;
+	float:left;
+}
+
+.social-network-area .twitter_feed {
+	float:left;
+	margin-top:10px;
+	width:550px;
+	
+}
+
+.social-network-area .twitter_feed ul li a{
+	font-family:'Museo300-Regular';
+	font-size:0.92em;
+	color:#333333;
+	text-decoration:none;
+}
+
+.social-network-area .facebook-like-area{
+	float:left;
+	margin-top:8px;
+	margin-left:20px;
+	width:80px;
+}
+
+.social-network-area .facebook-icon-area {
+	margin-top:10px;
+	margin-left:20px;
+	float:left;
+}
+
+.social-network-area .youtube-icon-area {
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+}
+
+
+.featured-images {
+	
+	border-top:5px solid #898474;
+	border-bottom:5px solid #898474;
+	border-color:;
+	position:absolute;
+	top:100px;	
+	width:960px;
+	height:293px;
+	
+}
+
+.top-line {
+	
+	border-top:5px solid #898474;
+	border-color:;
+	position:absolute;
+	top:100px;	
+	width:960px;
+	height:5px;
+	
+}
+
+
+
+.button-watch-demo a {
+	
+	position:absolute;
+	background:url('../images/button-demo.png');
+	width:129px;
+	height:42px;
+	margin-left:600px;
+	margin-top:180px;
+	
+}
+
+.button-watch-demo a:hover {
+	background:url('../images/button-demo-roll.png');
+}
+
+.tagline {
+	font-family : 'LearningCurve_OT';
+	font-size:2em;
+	color:#7b5345;
+	position:absolute;
+	width:450px;
+	height:30px;
+	margin-left:160px; 
+	margin-top:70px;
+}
+
+.main-menu {
+	width:350px;
+	height:30px;
+	position:absolute;
+	margin-left:628px; 
+	margin-top:75px;
+}
+		
+.main-menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}		
+
+.main-menu ul li {
+	display:inline;
+	float:left;
+	margin-left:25px;
+}
+
+.main-menu ul li a {
+	display:block;
+	height:40px;
+	font-family:'Museo500-Regular';
+	font-size:1em;
+	color:#330000;
+	text-align:center;
+	text-decoration:none;
+}
+
+.main-menu ul li a:hover {
+	font-family:'Museo500-Regular';
+	font-size:1em;
+	color:#ff0000;
+	background:url('../images/segi3.png') no-repeat center;
+	text-align:center;
+}
+
+.main-menu ul .current a {
+	font-family:'Museo500-Regular';
+	font-size:1em;
+	color:#ff0000;
+	background:url('../images/segi3.png') no-repeat center;
+	text-align:center;
+}
+
+.main-menu ul .section a {
+	font-family:'Museo500-Regular';
+	font-size:1em;
+	color:#ff0000;
+	background:url('../images/segi3.png') no-repeat center;
+	text-align:center;
+}
+
+.feedback-area {
+	position:absolute;
+	width:204px;
+	height:219px;
+	background:url('../images/kertas-feedback.png') no-repeat center;
+	margin-left:740px;
+	margin-top:360px;
+}
+
+.feedback-area .text-body{
+	float:left;
+	width:190px;
+	height:50px;
+	margin-left:10px;
+	margin-top:70px;
+	font-family:'Museo300-Regular';
+	font-size:0.92em;
+	color:#330000;
+	text-align:left;
+}
+
+.feedback-area .link-feedback{
+	float:left;
+	width:190px;
+	height:60px;
+	margin-left:10px;
+	margin-top:15px;
+	font-family:'Museo700-Regular';
+	font-size:1em;
+	color:#333333;
+	text-align:left;
+}
+.feedback-area .link-feedback ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}		
+
+.feedback-area .link-feedback ul li {
+	float:left;
+	margin-bottom:10px;
+}
+
+.feedback-area .link-feedback a{
+	text-decoration:none;
+	color:#333333;
+}
+
+.feedback-area .link-feedback a:hover{
+	color:#ff3333;
+}
+
+
+.main-content {
+	width:960px;
+	height:368px;	
+	margin-top:30px;
+}
+
+.main-content-2 {
+	width:960px;
+	height:691px;	
+	margin-top:30px;
+}
+
+.testimonial {
+	float:left;
+	width:220px;
+	height:280px;
+	background-color:#ff00ff;
+	background:url('../images/panel-testi.png') no-repeat;	
+}
+
+.testimonial-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+	width:53px;
+	height:53px;
+	background:url('../images/icon-testi.png') no-repeat;
+}
+
+.testimonial-title {
+	float:left;
+	margin-left:5px;
+	margin-top:15px;
+	width:153px;
+	height:53px;
+	font-family : 'LearningCurve_OT';
+	font-size:2.5em;
+	color:#7b5345;
+}
+
+.testimonial-content {
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+	width:203px;
+	height:170px;
+	font-family:'Museo300-Regular';
+	font-size:0.9em;
+	color:#333333;
+}
+
+.testimonial-content cite{
+	font-family:'Museo300-Regular';
+	font-size:0.97em;
+	font-style:italic;
+	color:#333333;
+}
+
+.intro-area {
+	float:left;
+	margin-left:27px;
+	width:713px;
+	height:190px;
+}
+
+.intro-title {
+	width:466px;
+	height:25px;
+	font-family:'Museo700-Regular';
+	font-size:1.3em;
+	color:#330000;
+	background:url('../images/garis-panjang.png') no-repeat bottom;
+}
+
+.intro-body {
+	margin-top:10px;
+	width:430px;
+	height:125px;
+	font-family:'Museo300-Regular';
+	font-size:1em;
+	color:#333333;
+}
+
+.featured {
+	float:right;
+	margin-left:26px;
+	width:220px;
+	height:140px;
+	background:url('../images/garis-pendek.png') no-repeat;
+}
+
+.featured-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:52px;
+	height:51px;
+}
+
+.featured-text {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:153px;
+	height:53px;
+	font-family : 'LearningCurve_OT';
+	font-size:3em;
+	color:#7b5345;
+	text-align:center;
+}
+
+
+.latest-app-featured {
+	float:left;
+	margin-left:20px;
+	width:220px;
+	height:140px;
+	background:url('../images/garis-pendek.png') no-repeat;
+}
+
+.latest-app-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:52px;
+	height:51px;
+	background:url('../images/icon-timun.png') no-repeat;
+}
+
+.latest-app-text {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:153px;
+	height:53px;
+	font-family : 'LearningCurve_OT';
+	font-size:3em;
+	color:#7b5345;
+	text-align:center;
+}
+
+.featured-2 {
+	float:left;
+	margin-top:50px;
+	width:220px;
+	height:140px;
+	background:url('../images/garis-pendek.png') no-repeat;
+}
+
+.featured-2-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:52px;
+	height:51px;
+}
+
+.featured-2-text {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:153px;
+	height:53px;
+	font-family : 'LearningCurve_OT';
+	font-size:3em;
+	color:#7b5345;
+	text-align:center;
+}
+
+.latest-news-featured {
+	float:left;
+	margin-left:30px;
+	width:220px;
+	height:140px;
+	background:url('../images/garis-pendek.png') no-repeat;
+}
+
+.latest-news-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:52px;
+	height:51px;
+	background:url('../images/icon-news.png') no-repeat;
+}
+
+.latest-news-text {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:153px;
+	height:53px;
+	font-family : 'LearningCurve_OT';
+	font-size:3em;
+	color:#7b5345;
+	text-align:center;
+}
+
+.promotion-featured {
+	float:left;
+	margin-left:30px;
+	width:220px;
+	height:140px;
+	background:url('../images/garis-pendek.png') no-repeat;
+}
+
+.promotion-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:52px;
+	height:51px;
+	background:url('../images/icon-promo.png') no-repeat;
+}
+
+.promotion-text {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:153px;
+	height:53px;
+	font-family : 'LearningCurve_OT';
+	font-size:3em;
+	color:#7b5345;
+	text-align:center;
+}
+
+.featured-title {
+	float:left;
+	width:220px;
+	height:auto;
+	margin-top:10px;
+	font-family:'Museo700-Regular';
+	font-size:1em;
+	color:#542011;
+}
+
+.featured-title a{
+	text-decoration:underline;
+	font-family:'Museo700-Regular';
+	font-size:1em;
+	color:#542011;
+}
+
+.featured-title a:hover{
+	color:#ff3333;
+}
+
+.featured-content {
+	float:left;
+	width:220px;
+	height:65px;
+	margin-top:5px;
+	font-family:'Museo300-Regular';
+	font-size:0.92em;
+	color:#333333;
+}
+
+.location-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:52px;
+	height:51px;
+	background:url('../images/icon-location.png') no-repeat;
+}
+
+.button-watch-demo a {
+	
+	position:absolute;
+	background:url('../images/button-demo.png');
+	width:129px;
+	height:42px;
+	margin-left:600px;
+	margin-top:180px;
+	
+}
+
+.prev a {
+	float:left;
+	margin-left:150px;
+	margin-top:7px;
+	width:22px;
+	height:21px;
+	background:url('../images/button-prev.png') repeat-x;
+}
+
+.prev a:hover {
+	background:url('../images/button-prev-roll.png') repeat-x;
+}
+
+.next a {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:22px;
+	height:21px;
+	background:url('../images/button-next.png') repeat-x;
+}
+
+.next a:hover {
+	background:url('../images/button-next-roll.png') repeat-x;
+}
+
+
+.left-side-area {
+	float:left;
+	width:220px;
+	height:691px;
+}
+
+.menu-left {
+	float:left;
+	width:220px;
+	height:140px;
+	margin-top:50px;
+	background:url('../images/garis-pendek.png') no-repeat;
+}
+
+.menu-left-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:52px;
+	height:51px;
+}
+
+.menu-left-text {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:153px;
+	height:53px;
+	font-family : 'LearningCurve_OT';
+	font-size:3em;
+	color:#7b5345;
+}
+
+.link-left-menu{
+	float:left;
+	width:150px;
+	height:60px;
+	margin-left:60px;
+	margin-top:15px;
+	font-family:'Museo700-Regular';
+	font-size:1em;
+	color:#333333;
+	text-align:left;
+}
+
+.link-left-menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}		
+
+.link-left-menu ul li {
+	float:left;
+	width:150px;
+	margin-bottom:10px;
+}
+
+.link-left-menu a{
+	text-decoration:none;
+	color:#542011;
+}
+
+.link-left-menu a:hover{
+	color:#ff3333;
+}
+
+.link-left-menu .current a{
+	color:#ff3333;
+}
+
+.menu-right {
+	float:left;
+	width:220px;
+	height:140px;
+	margin-top:50px;
+	background:url('../images/garis-pendek.png') no-repeat;
+}
+
+.menu-right-icon {
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+	width:52px;
+	height:51px;
+}
+
+.menu-right-text {
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width:153px;
+	height:53px;
+	font-family : 'LearningCurve_OT';
+	font-size:3em;
+	color:#7b5345;
+	text-align:center;
+}
+
+.center-side-area {
+	float:left;
+	margin-left:27px;
+	width:466px;
+	height:691px;
+}
+
+.main-image-content {
+	width:466px; 
+	height:188px;
+	margin-top:5px;
+}	
+
+.content-title {
+	width:466px;
+	height:25px;
+	margin-top:10px;
+	font-family:'Museo700-Regular';
+	font-size:1.3em;
+	color:#330000;
+	background:url('../images/garis-panjang.png') no-repeat bottom;
+}
+
+.the-content {
+	width:466px;
+	height:440px;
+	margin-top:10px;
+	font-family:'Museo300-Regular';
+	font-size:1em;
+	color:#333333;
+}
+
+.right-side-area {
+	float:left;
+	margin-left:27px;
+	width:220px;
+	height:691px;
+}
+
+.footer {
+	width:960px;
+	height:49px;
+}
+
+.footer-content-left {
+	float:left;
+	padding-top:20px;
+	margin-left:50px;
+	font-family:'Museo300-Regular';
+	font-size:0.83em;
+	color:#333333;
+}
+
+.footer-content-right-image {
+	float:right;
+	padding-top:15px;
+	margin-right:80px;
+	font-family:'Museo300-Regular';
+	font-size:0.83em;
+	color:#333333;
+}
+
+.footer-content-right {
+	float:right;
+	padding-top:20px;
+	margin-right:10px;
+	font-family:'Museo300-Regular';
+	font-size:0.83em;color:#333333;
+}
+
